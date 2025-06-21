@@ -22,7 +22,7 @@ Queda autorizado su uso, modificación y redistribución en:
 - Fundaciones, cooperativas, asociaciones y colectivos independientes que no persigan beneficios económicos.
 
 ### 📬 Contacto para licencias extendidas o colaboración:
-`trueordenador@protonmail.com`
+`AlejandroCreador@protonmail.com`
 
 Este software se entrega "tal cual", sin garantías de ningún tipo. Una copia íntegra de la licencia GPLv3 se adjunta como `LICENSE-GPL`.
 
