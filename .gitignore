@@ -1,0 +1,16 @@
+# Entornos y caches
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+
+# Archivos sensibles
+.env
+
+# Productos de build
+*.egg-info/
+dist/
+build/
+
+# Otros
+*.log
