@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Instalar Poetry
+        run: pip install poetry
+      - name: Instalar dependencias
+        run: poetry install
+      - name: Formato
+        run: poetry run black --check src tests
+      - name: Lint
+        run: poetry run flake8 src tests
+      - name: Tipado
+        run: poetry run mypy src
+      - name: Seguridad
+        run: |
+          poetry run bandit -r src || true
+          poetry run safety check || true
+      - name: Tests
+        run: poetry run pytest --cov=src --cov-report=term-missing

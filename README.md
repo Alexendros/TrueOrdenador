@@ -1,3 +1,8 @@
+# TrueOrdenador
+
+Herramienta modular para procesamiento de datos en entornos Linux.
+
+
 # 📄 LICENCIA DE USO DE TRUEORDENADOR
 
 ## 🇪🇸 Versión en español
@@ -53,3 +58,22 @@ Permitted uses include:
 `AlejandroCreador@proton.me`
 
 This software is provided “as is”, without warranties of any kind. A full copy of the GPLv3 license is included as `LICENSE-GPL`.
+
+---
+
+## Instalación
+
+```bash
+poetry install
+```
+
+## Uso
+
+```bash
+poetry run trueordenador "Nombre"
+```
+
+## Contribución
+
+Consulta `CONTRIBUTING.md` para conocer el flujo de trabajo.
+Revisa `checklist.md` antes de enviar tus cambios y ejecuta `scripts/check.sh` para validar el entorno.
