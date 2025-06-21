@@ -77,3 +77,4 @@ poetry run trueordenador "Nombre"
 
 Consulta `CONTRIBUTING.md` para conocer el flujo de trabajo.
 Revisa `checklist.md` antes de enviar tus cambios y ejecuta `scripts/check.sh` para validar el entorno.
+Para profundizar en la arquitectura y las herramientas utilizadas consulta `docs/referencias-teoricas.md`.
